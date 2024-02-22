@@ -1,0 +1,4 @@
+<a class="ml-3" routerLink="/">Home</a>
+<a class="ml-3" routerLink="/auth">Auth</a>
+<a *ngIf="show" class="ml-3" routerLink="/about-us">About-Us</a>
+<a *ngIf="show" (click)="signOut()" class="ml-3">Sign Out</a>
